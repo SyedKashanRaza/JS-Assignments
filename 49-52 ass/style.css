@@ -1,0 +1,14 @@
+.hform{
+    visibility: hidden;
+}
+
+.sform{
+    visibility: visible;
+}
+
+td:last-child{
+    background-color: #F00;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+}

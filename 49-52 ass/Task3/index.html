@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="JavaScript:void(0)">
+        <fieldset>
+            <legend><h1 style="font-size: 5vw ;" >Input Form</h1></legend>
+        <p><strong>Username:</strong>
+            <input type="text" name="username" size="15" maxlength="30" placeholder="Enter Your Name" id="name" required />
+        </p>
+        <p><strong>Password:</strong>
+            <input type="password" name="username" size="15" maxlength="30" placeholder="Enter Your Password" id="pwd" required/>
+        </p>
+        <p><strong>Date of Birth:</strong>
+            <input type="date" name="username" size="15" maxlength="30"  id="dob" required/>
+        </p>
+        <p><strong>Email Address:</strong>
+            <input type="email" name="email" size="15" maxlength="30" placeholder="abc@xyz.com" id="email" required/>
+        </p>
+        <p><strong>Gender:</strong>
+            Male<input type="radio" name="Gender" value="male">
+            Female<input type="radio" name="Gender" value="female">
+        </p>
+        <p><strong>You have any of these acounts:</strong>
+            <br />
+            Hotmail<input type="checkbox" name="service" value="Hotmail" class="asa"/>
+            Gmail<input type="checkbox" name="service" value="Gmail" class="asa"/>
+            Yahoo<input type="checkbox" name="service" value="Yahoo" class="asa"/>
+        </p>
+        <p><strong>Select Your Country:</strong></p>
+        <select name="Countries" id="flag">
+            <option value="India">India</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option selected value="Pakistan">Pakistan</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Nepal">Nepal</option>
+        </select>
+            <br/>
+            <input type="reset" value="RESET" id="button">
+            <button onclick="as()" id="button">SUBMIT</button>
+    </fieldset>
+    </form>
+</body>
+<script src="app.js"></script>
+</html>

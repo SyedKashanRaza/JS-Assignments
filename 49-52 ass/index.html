@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit & Delete</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <label for="" class="hform"> First Name:</label><input type="text" name="fname" id="fname" class="hform"><br><br>
+        <label for="" class="hform">Last Name:</label><input type="text" name="lname" id="lname" class="hform"><br><br>
+        <label for="" class="hform">Age:</label><input type="text" name="age" id="age" class="hform"><br><br>
+        <button onclick="editRow();">Edit Row</button><br><br>
+        
+        
+        <table id="table" border="1">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            
+            <tr>
+                <td>FN1</td>
+                <td>LN1</td>
+                <td>10</td>
+                <td><button onclick="showForm();">Edit</button></td>
+                <td>remove</td>
+            </tr>
+            
+            <tr>
+                <td>FN2</td>
+                <td>LN2</td>
+                <td>20</td>
+                <td><button onclick="showForm();">Edit</button></td>
+                <td>remove</td>
+            </tr>
+            
+            <tr>
+                <td>FN3</td>
+                <td>LN3</td>
+                <td>30</td>
+                <td><button onclick="showForm();">Edit</button></td>
+                <td>remove</td>
+            </tr>
+            
+            <tr>
+                <td>FN4</td>
+                <td>LN4</td>
+                <td>40</td>
+                <td><button onclick="showForm();">Edit</button></td>
+                <td>remove</td>
+            </tr>
+            
+            <tr>
+                <td>FN5</td>
+                <td>LN5</td>
+                <td>50</td>
+                <td><button onclick="showForm();">Edit</button></td>
+                <td>remove</td>
+            </tr>
+        </table>
+    </body>
+
+    <script src="app.js"></script>
+</html>
